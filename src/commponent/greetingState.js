@@ -13,7 +13,7 @@ class GreetingState extends React.Component {
     }
     minElement =()=>{
         if(this.state.keyapaaja === 0){
-            alert('nila tidak bisa dikurang karena kosong');
+            alert('nilai tidak bisa dikurang karena kosong');
         }else{
             this.setState(prevState => ({
                 keyapaaja: prevState.keyapaaja - 1
